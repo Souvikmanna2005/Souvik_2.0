@@ -376,7 +376,7 @@ header ul a:hover{
 
 
 /* ----- PROJECT SECTION ----- */
-.my-project {
+ .my-project {
     width: 80%;
     margin: 200px auto 200px auto;
     text-align: center;
@@ -390,8 +390,8 @@ header ul a:hover{
     letter-spacing: 2px;
 }
 
-/* ----- PROJECT GRID ----- */
-.project-container {
+
+ .project-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
@@ -399,15 +399,8 @@ header ul a:hover{
     align-items: start;
 }
 
-/* ----- INDIVIDUAL PROJECT CARD ----- */
-.project-card {
-    background: #111;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+ .project-card {
     transition: transform 0.4s ease, box-shadow 0.4s ease;
-    cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .project-card:hover {
@@ -415,20 +408,12 @@ header ul a:hover{
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
 }
 
-/* ----- VIDEO BOX ----- */
-.project-vidbox video {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
-
-/* ----- PROJECT INFO ----- */
-.project-info {
+ .project-info {
     padding: 20px;
     text-align: left;
 }
 
-.project-info h2 {
+ .project-info h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
 }
@@ -438,8 +423,8 @@ header ul a:hover{
     opacity: 0.7;
 }
 
-/* ----- RESPONSIVE DESIGN ----- */
-@media screen and (max-width: 900px) {
+
+ @media screen and (max-width: 900px) {
     .project-container {
         grid-template-columns: 1fr;
     }
@@ -448,8 +433,7 @@ header ul a:hover{
         font-size: 2.5rem;
     }
 }
-
-
+ 
 .hover-sign::before,
 .hover-sign::after {
     content: "👆";
@@ -479,10 +463,6 @@ header ul a:hover{
     transform: translateX(80%, 80%) rotate(20deg);
   }
 }
-
-
-
-
 /* Skills section */
 .skills-section{
     display: flex;
